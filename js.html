@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <style>
+        body{
+            font-family: ariel, sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+        button{
+            padding: 10px 20px;
+            font-size: 20px;
+            cursor: pointer;
+            background-color: blue;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+        button:hover{
+            background-color: black;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JavaScript</title>
+</head>
+<style>
+
+</style>
+<body>
+<h1>Welcome to JavaScript Basics</h1>
+
+<p>Click the button below to see what happens</p>
+
+<button id="myButton">Click me please!!!</button>
+<script>
+    const button=document.getElementById('myButton')
+
+    button.addEventListener('click',function (){
+        alert('Hello, Queen. Welcome to JavaScript')
+    });
+</script>
+
+</body>
+</html>
